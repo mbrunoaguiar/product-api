@@ -1,0 +1,25 @@
+{
+  "name": "product-api",
+  "version": "0.0.1",
+  "description": "API para CRUD de produtos",
+  "main": "server.js",
+  "repository": "",
+  "license": "MIT",
+  "author": "Plínio Naves <pliniopjn@hotmail.com>",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-load": "^1.1.15",
+    "helmet": "^2.1.1",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2",
+    "sequelize-cli": "^2.4.0"
+  }
+}
